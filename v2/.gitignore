@@ -1,0 +1,9 @@
+cache
+__pycache__
+tmp
+datas
+.vscode
+*checkpoint*
+*submission*
+models_cp/
+bkp/
