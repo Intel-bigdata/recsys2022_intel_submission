@@ -2,6 +2,10 @@
 
 Side Info Heterogeneous Graph for session recommender - SIHG4SR is a GNN-based solution for Recsys 2022 challenge.
 
+## Contributions and Support
+
+Since this project is for Recsys2022 submission, we will not accept external contributions and this software will not be supported going forward.
+
 ## LICENSE
 
 This project is under MIT License
