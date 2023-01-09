@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this method, please cite our paper as below."
+authors:
+- family-names: "Xue", "Wang", "Zhou", "Ding", "Zhang", "Brugarolas Brufau", "Anderson"
+  given-names: "Chendi", "Xinyao", "Yu", "Ke", "Jian", "Rita", "Eric"
+  orcid: "https://orcid.org/0000-0001-5339-0274"
+- family-names: "Wang"
+  given-names: "Xinyao"
+  orcid: "https://orcid.org/0000-0001-5468-3167"
+- family-names: "Zhou"
+  given-names: "Yu"
+  orcid: "https://orcid.org/0000-0002-4193-311X"
+- family-names: "Ding"
+  given-names: "Ke"
+  orcid: "https://orcid.org/0000-0002-6979-2363"
+- family-names: "Zhang"
+  given-names: "Jian"
+  orcid: "https://orcid.org/0000-0003-3369-1461"
+- family-names: "Brugarolas Brufau"
+  given-names: "Rita"
+  orcid: "https://orcid.org/0000-0002-2101-2284"
+- family-names: "Anderson"
+  given-names: "Eric"
+  orcid: "https://orcid.org/0000-0001-5955-8787"
+title: "SIHG4SR: Side Information Heterogeneous Graph for Session Recommender"
+doi: 10.1145/3556702.3556852
+date-released: 2022
+url: "https://doi.org/10.1145/3556702.3556852",
+publisher: "Association for Computing Machinery"
