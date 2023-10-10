@@ -8,7 +8,7 @@ Since this project is for Recsys2022 submission, we will not accept external con
 
 ## LICENSE
 
-This project is under MIT License
+This project is under MIT License.
 
 ## Third Party Claim
 
