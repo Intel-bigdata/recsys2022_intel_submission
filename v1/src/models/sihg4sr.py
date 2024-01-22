@@ -470,6 +470,9 @@ class SIHG4SR(nn.Module):
                 phi = phi.squeeze(1)
                 score = (th.cat((score.unsqueeze(1), score_ex.unsqueeze(1)), dim=1) * phi).sum(1)
             else:
+                if len(score.shape) == 2:
+                    score = score.unsqueeze(0)
+                    score_ex = score_ex.unsqueeze(0)
                 score = (th.cat((score.unsqueeze(2), score_ex.unsqueeze(2)), dim=2) * phi).sum(2)
         else:
             # print("no extra ****************")

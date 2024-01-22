@@ -54,7 +54,8 @@ def seed_torch(seed=42):
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.enabled = True
 seed_torch(123)
-print(f"CUDA_VISIBLE_DEVICES is {os.environ['CUDA_VISIBLE_DEVICES']}")
+if th.cuda.is_available():
+    # print(f"CUDA_VISIBLE_DEVICES is {os.environ['CUDA_VISIBLE_DEVICES']}")
 
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
